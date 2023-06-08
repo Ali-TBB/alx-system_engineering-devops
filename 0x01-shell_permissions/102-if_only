@@ -1,2 +1,2 @@
 #!/bin/bash
-./102-if_only2
+if { test "$(stat -c %U hello)" = "guillaume"} then sudo chown betty hello
