@@ -1,4 +1,5 @@
 #!/bin/bash
-if [[ $(stat -c %U hello) == "guillaume" ]]; then
-    chown betty hello
+
+if test "$(stat -c %U hello)" = "guillaume"; then
+    sudo chown betty hello
 fi
