@@ -1,0 +1,2 @@
+#!/bin/bash
+tail -n 1 iacta > tmp_file && cat tmp_file >> iacta && rm tmp_file
