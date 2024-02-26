@@ -4,7 +4,7 @@
 counter=0
 
 # Using a while loop to display "Best School" 10 times
-while [ $counter -lt 10 ]
+while [ $counter -lt 20 ]
 do
     # Incrementing the counter
     ((counter++))
