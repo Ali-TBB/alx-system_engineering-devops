@@ -1,0 +1,29 @@
+#!/usr/bin/env bash
+# This script is displays numbers from 1 to 20 and
+# Initializing a counter
+counter=0
+
+# Using a while loop to display "Best School" 10 times
+while [ $counter -lt 10 ]
+do
+    # Incrementing the counter
+    ((counter++))
+    
+    case $counter in
+        4)
+            echo $counter
+            echo "bad luck from China"
+            ;;
+        9)
+            echo $counter
+            echo "bad luck from Japan"
+            ;;
+        17)
+            echo $counter
+            echo "bad luck from Italy"
+            ;;
+        *)
+            echo $counter
+            ;;
+    esac
+done
