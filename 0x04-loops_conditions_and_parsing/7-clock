@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env bash
 # script that displays the time for 12 hours and 59 minutes
 
 # Using a while loop to display time for 12 hours and 59 minutes
