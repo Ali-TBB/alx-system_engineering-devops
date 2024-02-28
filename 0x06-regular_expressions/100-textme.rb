@@ -5,4 +5,3 @@ flags = ARGV[0][/flags:([^\]]+)/, 1]
 
 # Output the extracted values
 puts "#{sender},#{receiver},#{flags}"
-  
