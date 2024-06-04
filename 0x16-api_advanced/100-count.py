@@ -1,6 +1,7 @@
 #!/usr/bin/python3
 """
-This script counts the occurrences of given words in the titles of hot posts from a specified subreddit on Reddit.
+This script counts the occurrences of given
+words in the titles of hot posts from a specified subreddit on Reddit.
 """
 
 import requests
@@ -8,13 +9,17 @@ import requests
 
 def count_words(subreddit, word_list, after=None, counts={}):
     """
-    Recursive function that queries the Reddit API, parses the title of all hot articles, and prints a sorted count of given keywords.
+    Recursive function that queries the Reddit API,
+    parses the title of all hot articles,
+    and prints a sorted count of given keywords.
 
     Args:
         subreddit (str): The name of the subreddit to search.
         word_list (list): A list of words to count occurrences of.
-        after (str, optional): A token indicating the starting point for the next batch of posts. Defaults to None.
-        counts (dict, optional): A dictionary to store the word counts. Defaults to an empty dictionary.
+        after (str, optional): A token indicating the starting point
+        for the next batch of posts. Defaults to None.
+        counts (dict, optional): A dictionary to store the word counts.
+        Defaults to an empty dictionary.
 
     Returns:
         None
