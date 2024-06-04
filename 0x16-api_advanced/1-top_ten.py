@@ -9,19 +9,8 @@ import requests
 
 def top_ten(subreddit):
     """
-    Function that queries the Reddit API and prints
-    the titles of the top 10 hot posts in a subreddit.
-
-    Args:
-        subreddit (str): The name of the subreddit to query.
-
-    Returns:
-        None
-
-    Prints:
-        The titles of the top 10 hot posts in the specified subreddit.
-
-    If the subreddit is not valid or the API request fails, it prints None.
+    Function that queries the Reddit API
+    - If not a valid subreddit, print None.
     """
     req = requests.get(
         "https://www.reddit.com/r/{}/hot.json".format(subreddit),
